@@ -3,7 +3,7 @@ A simple jQuery Tip plugin.
 
 ## HTML Markup
 ``` html
-&lt;button class="tip" data-position="top-left" data-tip="Tip text here"&gt;Tip shows top left&lt;/button&gt;
+<button class="tip" data-position="top-left" data-tip="Tip text here">Tip shows top left</button>
 ```
 ## Usage
 ``` js
@@ -29,9 +29,9 @@ $(".tip").tip({
     // tip display position (or "data-position" of the target element, "bottom-center" as default value)
     position: "left",
     // the HTML template of the root DOM element
-    TIP_WRAP: '&lt;div class="tip-wrap {position} ' + CLS_HIDE + '" id="tip-{id}"&gt;&lt;/div&gt;',
+    TIP_WRAP: '<div class="tip-wrap {position} ' + CLS_HIDE + '" id="tip-{id}"></div>',
     // the HTML template of the content DOM element
-    TIP_CONTENT: '&lt;div class="tip-content">{content}&lt;/div&gt;'
+    TIP_CONTENT: '<div class="tip-content">{content}&lt;/div>'
 });
 ```
 
