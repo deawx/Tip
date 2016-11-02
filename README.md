@@ -31,7 +31,7 @@ $(".tip").tip({
     // the HTML template of the root DOM element
     TIP_WRAP: '<div class="tip-wrap {position} ' + CLS_HIDE + '" id="tip-{id}"></div>',
     // the HTML template of the content DOM element
-    TIP_CONTENT: '<div class="tip-content">{content}&lt;/div>'
+    TIP_CONTENT: '<div class="tip-content">{content}</div>'
 });
 ```
 
